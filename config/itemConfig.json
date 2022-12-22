@@ -1,14 +1,5 @@
 {
-	"Armored Vests": {
-		"AddGearTan_GEN4_Full": true,
-		"AddGearTan_GEN4_Assault": true,
-		"AddGearTan_GEN4_Mobility": true,
-		"AddGearTan_6B13": true,
-		"AddGearTan_Hexgrid": true,
-		"AddGearTan_UntarVest": true,
-		"AddGearTan_Trooper": true,
-		"AddGearTan_Trooper_Clean": true,
-		"AddGearTan_PACA": true,
-		"AddGearTan_6B2": true
+	"Rigs": {
+		"AddGearTan_GEN4_Full": true
 	}
 }

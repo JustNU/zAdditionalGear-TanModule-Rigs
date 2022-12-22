@@ -1,94 +1,6 @@
 {
     "manifest": [
 		{
-            "key": "AddGearTan/ArmoredVests/6b13_textures.bundle",
-            "dependencyKeys": [
-				"shaders",
-				"cubemaps"
-			]
-        },
-		{
-            "key": "AddGearTan/ArmoredVests/6b13.bundle",
-            "dependencyKeys": [
-				"AddGearTan/ArmoredVests/6b13_textures.bundle",
-				"assets/content/characters/character/vest/ar_6b13_mesh",
-				"shaders",
-				"assets/commonassets/physics/physicsmaterials.bundle",
-				"cubemaps"
-			]
-        },
-		{
-            "key": "AddGearTan/ArmoredVests/gen4_textures.bundle",
-            "dependencyKeys": []
-        },
-		{
-            "key": "AddGearTan/ArmoredVests/gen4_assault.bundle",
-            "dependencyKeys": [
-				"assets/commonassets/physics/physicsmaterials.bundle",
-				"shaders",
-				"AddGearTan/ArmoredVests/gen4_textures.bundle",
-				"cubemaps"
-			]
-        },
-		{
-            "key": "AddGearTan/ArmoredVests/gen4_full.bundle",
-            "dependencyKeys": [
-				"assets/commonassets/physics/physicsmaterials.bundle",
-				"shaders",
-				"AddGearTan/ArmoredVests/gen4_textures.bundle",
-				"cubemaps"
-			]
-        },
-		{
-            "key": "AddGearTan/ArmoredVests/gen4_mobility.bundle",
-            "dependencyKeys": [
-				"assets/commonassets/physics/physicsmaterials.bundle",
-				"shaders",
-				"AddGearTan/ArmoredVests/gen4_textures.bundle",
-				"cubemaps"
-			]
-        },
-		{
-            "key": "AddGearTan/ArmoredVests/trooper.bundle",
-            "dependencyKeys": [
-				"assets/commonassets/physics/physicsmaterials.bundle",
-				"shaders",
-				"cubemaps"
-			]
-        },
-		{
-            "key": "AddGearTan/ArmoredVests/trooper_clean.bundle",
-            "dependencyKeys": [
-				"assets/commonassets/physics/physicsmaterials.bundle",
-				"shaders",
-				"cubemaps"
-			]
-        },
-		{
-            "key": "AddGearTan/ArmoredVests/untarvest.bundle",
-            "dependencyKeys": [
-				"shaders",
-				"cubemaps",
-				"assets/commonassets/physics/physicsmaterials.bundle"
-			]
-        },
-		{
-            "key": "AddGearTan/ArmoredVests/hgrid.bundle",
-            "dependencyKeys": [
-                "cubemaps",
-                "shaders",
-				"assets/commonassets/physics/physicsmaterials.bundle"
-            ]
-        },
-		{
-            "key": "AddGearTan/ArmoredVests/paca.bundle",
-            "dependencyKeys": [
-                "cubemaps",
-                "shaders",
-				"assets/commonassets/physics/physicsmaterials.bundle"
-            ]
-        },
-		{
             "key": "AddGearTan/Rigs/tacteccarrier.bundle",
             "dependencyKeys": [
                 "shaders",
@@ -196,14 +108,6 @@
         },
 		{
             "key": "AddGearTan/Rigs/avs_mbav.bundle",
-            "dependencyKeys": [
-                "shaders",
-				"cubemaps",
-				"assets/commonassets/physics/physicsmaterials.bundle"
-            ]
-        },
-		{
-            "key": "AddGearTan/ArmoredVests/6B2.bundle",
             "dependencyKeys": [
                 "shaders",
 				"cubemaps",
