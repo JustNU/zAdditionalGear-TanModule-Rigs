@@ -1,0 +1,42 @@
+{
+	"AddGearTan_GEN4_Full": {
+		"BaseItemID": "5b44cd8b86f774503d30cba2",
+		"BundlePath": "AddGearTan/ArmoredVests/gen4_full.bundle"
+	},
+	"AddGearTan_GEN4_Assault": {
+		"BaseItemID": "5b44cf1486f77431723e3d05",
+		"BundlePath": "AddGearTan/ArmoredVests/gen4_assault.bundle"
+	},
+	"AddGearTan_GEN4_Mobility": {
+		"BaseItemID": "5b44d0de86f774503d30cba8",
+		"BundlePath": "AddGearTan/ArmoredVests/gen4_mobility.bundle"
+	},
+	"AddGearTan_6B13": {
+		"BaseItemID": "5c0e51be86f774598e797894",
+		"BundlePath": "AddGearTan/ArmoredVests/6b13.bundle"
+	},
+	"AddGearTan_Hexgrid": {
+		"BaseItemID": "5fd4c474dd870108a754b241",
+		"BundlePath": "AddGearTan/ArmoredVests/hgrid.bundle"
+	},
+	"AddGearTan_UntarVest": {
+		"BaseItemID": "5ab8e4ed86f7742d8e50c7fa",
+		"BundlePath": "AddGearTan/ArmoredVests/untarvest.bundle"
+	},
+	"AddGearTan_Trooper": {
+		"BaseItemID": "5c0e655586f774045612eeb2",
+		"BundlePath": "AddGearTan/ArmoredVests/trooper.bundle"
+	},
+	"AddGearTan_Trooper_Clean": {
+		"BaseItemID": "5c0e655586f774045612eeb2",
+		"BundlePath": "AddGearTan/ArmoredVests/trooper_clean.bundle"
+	},
+	"AddGearTan_PACA": {
+		"BaseItemID": "5648a7494bdc2d9d488b4583",
+		"BundlePath": "AddGearTan/ArmoredVests/paca.bundle"
+	},
+	"AddGearTan_6B2": {
+		"BaseItemID": "5df8a2ca86f7740bfe6df777",
+		"BundlePath": "AddGearTan/ArmoredVests/6B2.bundle"
+	}
+}

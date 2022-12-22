@@ -1,0 +1,122 @@
+{
+	"AddGearTan_GEN4_Full": {
+        "Name": "IOTV Gen4 armor (Tan, full protection)",
+		"ShortName": "Gen4 Full",
+		"Description": "The Improved Outer Tactical Vest (IOTV) Gen IV is designed to permit maximum freedom of movement required to assume correct firing positions with the agility to execute and maneuver tasks. Optimal design characteristics ensure the best possible weight distribution of both the ballistic body armor system as well as additional load bearing equipment, thus providing enhanced comfort, wear duration, and mobility. Full protection kit."
+    },
+	"AddGearTan_GEN4_Assault": {
+        "Name": "IOTV Gen4 armor (Tan, assault kit)",
+		"ShortName": "Gen4 Assault",
+		"Description": "The Improved Outer Tactical Vest (IOTV) Gen IV is designed to permit maximum freedom of movement required to assume correct firing positions with the agility to execute and maneuver tasks. Optimal design characteristics ensure the best possible weight distribution of both the ballistic body armor system as well as additional load bearing equipment, thus providing enhanced comfort, wear duration, and mobility. Increased ergonomics assault kit."
+    },
+	"AddGearTan_GEN4_Mobility": {
+        "Name": "IOTV Gen4 armor (Tan, high mobility kit)",
+		"ShortName": "Gen4 HMK",
+		"Description": "The Improved Outer Tactical Vest (IOTV) Gen IV is designed to permit maximum freedom of movement required to assume correct firing positions with the agility to execute and maneuver tasks. Optimal design characteristics ensure the best possible weight distribution of both the ballistic body armor system as well as additional load bearing equipment, thus providing enhanced comfort, wear duration, and mobility. Increased mobility and comfort kit."
+    },
+	"AddGearTan_6B13": {
+        "Name": "6B13 assault armor (Tan)",
+		"ShortName": "6B13",
+		"Description": "The main armored vest for personnel of combat units of the ground forces, airborne troops, marines, etc. The vest is designed to protect vital organs from being hit by firearms, shell fragments, mines, grenades, and cold weapons, reducing the severity of armor contusion injury when performing combat missions. Tan version."
+    },
+	"AddGearTan_Hexgrid": {
+        "Name": "5.11 Tactical Hexgrid plate carrier (Tan)",
+		"ShortName": "Hexgrid",
+		"Description": "The Hexgrid plate carrier with smooth ergonomic access that allows comfortable movement, intended for use with chest rigs. Manufactured by 5.11 Tactical."
+    },
+	"AddGearTan_UntarVest": {
+        "Name": "Light Military Flak Jacket (Tan)",
+		"ShortName": "Flak",
+		"Description": "A class III body armor used by PMCs and security forces all around the world."
+    },
+	"AddGearTan_Trooper": {
+        "Name": "HighCom Trooper TFO body armor (Tan)",
+		"ShortName": "Trooper",
+		"Description": "A plate armor vest by HighCom, popular among USEC PMCs. The lightweight AR500 class 4 (Russian GOST) protection plates cover only the chest and back areas. Tan version."
+    },
+	"AddGearTan_Trooper_Clean": {
+        "Name": "HighCom Trooper TFO body armor (Tan, Clean)",
+		"ShortName": "Trooper Tan Clean",
+		"Description": "A plate armor vest by HighCom. The lightweight AR500 class 4 (Russian GOST) protection plates cover only the chest and back areas. Tan version."
+    },
+	"AddGearTan_PACA": {
+        "Name": "PACA Soft Armor (Tan)",
+		"ShortName": "PACA",
+		"Description": "A light but durable and reliable body armor protecting only the vital areas, fitted with class 2 (Russian GOST) armor plates."
+    },
+	"AddGearTan_6B2": {
+		"Name": "6B2 body armor (Tan)",
+		"ShortName": "6B2",
+		"Description": "An old army body armor from Afghanistan war times, mainly designed to protect against pistol bullets and explosion fragments. It fulfilled its mission, but was soon replaced by bulletproof vests with differentiated protection."
+    },
+	"AddGearTan_tacteccarrier": {
+        "Name": "5.11 Tactec plate carrier (tan)",
+		"ShortName": "Tactec ",
+		"Description": "Plate carrier with armor plates made of polyethylene (class 5) and a set of pouches for work with assault rifles.",
+		"RigLayoutName": "Tactec "
+    },
+	"AddGearTan_anaalpha": {
+        "Name": "ANA Tactical Alpha chest rig (tan)",
+		"ShortName": "Alpha",
+		"Description": "High-quality \"Alpha\" chest rig. Fully meets the military standards for reliability and functionality. The combination of integrated pouches and MOLLE straps provides the means of carrying a large number of necessary equipment. The vest is designed as a classic chest rig. In this type of vests all the gear is located in the front and side parts, while back part is comprised of adjustment belts and straps.",
+		"RigLayoutName": "Usec 2"
+    },
+	"AddGearTan_anam1": {
+        "Name": "ANA Tactical M1 armored rig (tan)",
+		"ShortName": "M1",
+		"Description": "Tactical rig with additional 4-class armor plates. The vest is created with the use of the best experience of Russian special forces operators. The versatility of the system makes it possible to use this vest both when carrying out city tasks and when performing tasks on rough terrain. Equipped with additional pouches.",
+		"RigLayoutName": "ana m1"
+    },
+	"AddGearTan_anam2": {
+        "Name": "ANA Tactical M2 armored rig (tan)",
+		"ShortName": "M2",
+		"Description": "Tactical rig with additional 4-class armor plates. The vest is created with the use of the best experience of Russian special forces operators. The versatility of the system makes it possible to use this vest both when carrying out city tasks and when performing tasks on rough terrain. Equipped with additional pouches for 8 magazines.",
+		"RigLayoutName": "ana m2"
+    },
+	"AddGearTan_arscpc": {
+        "Name": "Ars Arma CPC MOD.2 plate carrier (tan)",
+		"ShortName": "AACPC",
+		"Description": "The second generation of modification of the CPC body armor designed by Crye Precision and adapted by Ars Arms for use by special forces of the Russian Federation. This modular body armor is based on a polymer corset that fits the body, which avoids the backlash of the body arm during active movement and also contributes to a evener distribution of weight. Made in the assault configuration of pouches and armor elements.",
+		"RigLayoutName": "AACPC"
+    },
+	"AddGearTan_mppv": {
+        "Name": "Velocity Systems Multi-Purpose Patrol Vest (tan)",
+		"ShortName": "MPPV",
+		"Description": "Multi-Purpose Patrol Vest is designed for those patrolling situations where armor is not needed. Light rig with a lot of pouches.",
+		"RigLayoutName": "mppv"
+    },
+	"AddGearTan_cryeavs": {
+        "Name": "Crye Precision AVS plate carrier (tan)",
+		"ShortName": "AVS",
+		"Description": "Crye Precision AVS rig equipped with light armored plates from combined materials. One of the most comfortable to wear plate-carrier."
+    },
+	"AddGearTan_blackrock": {
+        "Name": "BlackRock chest rig (tan)",
+		"ShortName": "BlackRock",
+		"Description": "Artisan custom-made chest rig for wearing on top of armor in urban operations. Sturdy and versatile, it features both MOLLE and ALICE attachment systems."
+    },
+	"AddGearTan_d3crx": {
+        "Name": "Haley Strategic D3CRX Chest Harness (tan)",
+		"ShortName": "D3CRX",
+		"Description": "The Haley Strategic D3CRX Combat chest rig is one of the most respected PMC rig systems. Ease and comfort of use are supported by the presence of the optimal number of pouches.",
+		"RigLayoutName": "D3CRX"
+    },
+	"AddGearTan_lbt1961a": {
+        "Name": "LBT-1961A Load Bearing Chest Vest (tan)",
+		"ShortName": "LBT-1961A",
+		"Description": "Tactical bearing system designed to carry magazines, grenades and special equipment, while using low-profile body armor.",
+		"RigLayoutName": "LBT-1961A"
+    },
+	"AddGearTan_thunderbolt": {
+        "Name": "Direct Action Thunderbolt compact chest rig (tan)",
+		"ShortName": "Thunderbolt",
+		"Description": "Direct Action fixed chest rig, containing all the basic pouches you need.",
+		"RigLayoutName": "thunderbolt"
+    },
+	"AddGearTan_tv109": {
+        "Name": "Wartech gear rig tan (TV-109, TV-106)",
+		"ShortName": "WTRig",
+		"Description": "The heavy suspension system TV-109 is designed for attaching to the belt TV-106, or similar, in order to relieve some weight on the shoulders. The shoulders are reinforced with foam and have MOLLE straps, for transferring the belt complete with this system into a full-featured ALICE system.",
+		"RigLayoutName": "Wartech Rig"
+    }
+}
