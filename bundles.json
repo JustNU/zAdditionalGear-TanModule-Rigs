@@ -113,14 +113,6 @@
 				"cubemaps",
 				"assets/commonassets/physics/physicsmaterials.bundle"
             ]
-        },
-		{
-            "key": "AddGearTan/Rigs/AZIMUT.bundle",
-            "dependencyKeys": [
-                "shaders",
-				"cubemaps",
-				"assets/commonassets/physics/physicsmaterials.bundle"
-            ]
         }
     ]
 }

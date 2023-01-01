@@ -59,11 +59,6 @@
 		"BundlePath": "AddGearTan/Rigs/tv109.bundle",
 		"LootWeigthMult": 0.25
 	},
-	"AddGearTan_AZIMUT": {
-		"BaseItemID": "603648ff5a45383c122086ac",
-		"BundlePath": "AddGearTan/Rigs/AZIMUT.bundle",
-		"LootWeigthMult": 0.25
-	},
 	"AddGearTan_AVS_MBAV": {
 		"BaseItemID": "609e860ebd219504d8507525",
 		"BundlePath": "AddGearTan/Rigs/avs_mbav.bundle",
