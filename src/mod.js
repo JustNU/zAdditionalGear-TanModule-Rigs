@@ -15,14 +15,43 @@ class Mod
 		const itemConfig = require("../config/itemConfig.json");
 		const itemData = require("../db/items/itemData.json");
 		
+		// edge cases
+		const edgeCases = ["AddGearTan_AVS_MBAV"];
+		
 		//add retextures
 		for (const categoryId in itemConfig) {
 			for (const itemId in itemConfig[categoryId]) {
+				// skip edge cases, handle them later
+				if (edgeCases.includes(itemId)) {
+					continue;
+				}
+				
 				if (itemConfig[categoryId][itemId]) {
 					core.addItemRetexture(modDb, itemId, itemData[itemId].BaseItemID, itemData[itemId].BundlePath, config.EnableTradeOffers, config.AddToBots, itemData[itemId].LootWeigthMult);
 				}
 			}
 		}
+		
+		// deal with edge cases
+		// AVS MBAV
+		if (itemConfig["Rigs"]["AddGearTan_AVS_MBAV"]) {
+			core.addItemRetexture(modDb, "AddGearTan_AVS_MBAV", "609e860ebd219504d8507525", "AddGearTan/Rigs/avs_mbav.bundle", false, false, itemData["AddGearTan_AVS_MBAV"].LootWeigthMult);
+			core.copyBotItemWeighting("AddGearTan_AVS_MBAV", "5aa2a7e8e5b5b00016327c16");
+			
+			// change price
+			database.templates.prices["AddGearTan_AVS_MBAV"] = 139000;
+			
+			for (const handbookItemIndex in database.templates.handbook.Items) {
+				if (database.templates.handbook.Items[handbookItemIndex].Id === "AddGearTan_AVS_MBAV") {
+					database.templates.handbook.Items[handbookItemIndex].Price = 139000;
+					break;
+				}
+			}
+			
+			// change stats
+			database.templates.items["AddGearTan_AVS_MBAV"]._props.armorClass = database.templates.items["AddGearTan_AVS_MBAV"]._props.armorClass - 1;
+		}
+		
 		// Modify quests
 		if (config.EnableQuestChanges) {
 			const armoredVests = [
