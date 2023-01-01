@@ -5,8 +5,7 @@
             "dependencyKeys": [
                 "shaders",
 				"cubemaps",
-				"assets/commonassets/physics/physicsmaterials.bundle",
-				"assets/content/characters/character/skeleton.bundle"
+				"assets/commonassets/physics/physicsmaterials.bundle"
             ]
         },
 		{
@@ -14,8 +13,7 @@
             "dependencyKeys": [
                 "shaders",
 				"cubemaps",
-				"assets/commonassets/physics/physicsmaterials.bundle",
-				"assets/content/characters/character/skeleton.bundle"
+				"assets/commonassets/physics/physicsmaterials.bundle"
             ]
         },
 		{
@@ -23,8 +21,7 @@
             "dependencyKeys": [
                 "shaders",
 				"cubemaps",
-				"assets/commonassets/physics/physicsmaterials.bundle",
-				"assets/content/characters/character/skeleton.bundle"
+				"assets/commonassets/physics/physicsmaterials.bundle"
             ]
         },
 		{
@@ -32,8 +29,7 @@
             "dependencyKeys": [
                 "shaders",
 				"cubemaps",
-				"assets/commonassets/physics/physicsmaterials.bundle",
-				"assets/content/characters/character/skeleton.bundle"
+				"assets/commonassets/physics/physicsmaterials.bundle"
             ]
         },
 		{
@@ -41,8 +37,7 @@
             "dependencyKeys": [
                 "shaders",
 				"cubemaps",
-				"assets/commonassets/physics/physicsmaterials.bundle",
-				"assets/content/characters/character/skeleton.bundle"
+				"assets/commonassets/physics/physicsmaterials.bundle"
             ]
         },
 		{
@@ -50,8 +45,7 @@
             "dependencyKeys": [
                 "shaders",
 				"cubemaps",
-				"assets/commonassets/physics/physicsmaterials.bundle",
-				"assets/content/characters/character/skeleton.bundle"
+				"assets/commonassets/physics/physicsmaterials.bundle"
             ]
         },
 		{
@@ -59,8 +53,7 @@
             "dependencyKeys": [
                 "shaders",
 				"cubemaps",
-				"assets/commonassets/physics/physicsmaterials.bundle",
-				"assets/content/characters/character/skeleton.bundle"
+				"assets/commonassets/physics/physicsmaterials.bundle"
             ]
         },
 		{
@@ -68,8 +61,7 @@
             "dependencyKeys": [
                 "shaders",
 				"cubemaps",
-				"assets/commonassets/physics/physicsmaterials.bundle",
-				"assets/content/characters/character/skeleton.bundle"
+				"assets/commonassets/physics/physicsmaterials.bundle"
             ]
         },
 		{
@@ -77,8 +69,7 @@
             "dependencyKeys": [
                 "shaders",
 				"cubemaps",
-				"assets/commonassets/physics/physicsmaterials.bundle",
-				"assets/content/characters/character/skeleton.bundle"
+				"assets/commonassets/physics/physicsmaterials.bundle"
             ]
         },
 		{
@@ -86,8 +77,7 @@
             "dependencyKeys": [
                 "shaders",
 				"cubemaps",
-				"assets/commonassets/physics/physicsmaterials.bundle",
-				"assets/content/characters/character/skeleton.bundle"
+				"assets/commonassets/physics/physicsmaterials.bundle"
             ]
         },
 		{
