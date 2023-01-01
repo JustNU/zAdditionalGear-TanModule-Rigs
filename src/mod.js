@@ -36,7 +36,7 @@ class Mod
 		// AVS MBAV
 		if (itemConfig["Rigs"]["AddGearTan_AVS_MBAV"]) {
 			core.addItemRetexture(modDb, "AddGearTan_AVS_MBAV", "609e860ebd219504d8507525", "AddGearTan/Rigs/avs_mbav.bundle", false, false, itemData["AddGearTan_AVS_MBAV"].LootWeigthMult);
-			core.copyBotItemWeighting("AddGearTan_AVS_MBAV", "5aa2a7e8e5b5b00016327c16");
+			core.copyBotItemWeighting("AddGearTan_AVS_MBAV", "5b44cad286f77402a54ae7e5");
 			
 			// change price
 			database.templates.prices["AddGearTan_AVS_MBAV"] = 118933;
