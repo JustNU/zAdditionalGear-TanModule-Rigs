@@ -1,6 +1,72 @@
 {
-	"AddGearTan_GEN4_Full": {
-		"BaseItemID": "5b44cd8b86f774503d30cba2",
-		"BundlePath": "AddGearTan/ArmoredVests/gen4_full.bundle"
+	"AddGearTan_TacTec_Carrier": {
+		"BaseItemID": "5b44cad286f77402a54ae7e5",
+		"BundlePath": "AddGearTan/Rigs/tacteccarrier.bundle",
+		"LootWeigthMult": 0.25
+	},
+	"AddGearTan_ANA_Alpha": {
+		"BaseItemID": "592c2d1a86f7746dbe2af32a",
+		"BundlePath": "AddGearTan/Rigs/anaalpha.bundle",
+		"LootWeigthMult": 0.25
+	},
+	"AddGearTan_ANA_M1": {
+		"BaseItemID": "5c0e722886f7740458316a57",
+		"BundlePath": "AddGearTan/Rigs/anam1.bundle",
+		"LootWeigthMult": 0.25
+	},
+	"AddGearTan_ANA_M2": {
+		"BaseItemID": "5ab8dced86f774646209ec87",
+		"BundlePath": "AddGearTan/Rigs/anam2.bundle",
+		"LootWeigthMult": 0.25
+	},
+	"AddGearTan_ARS_CPC": {
+		"BaseItemID": "5e4ac41886f77406a511c9a8",
+		"BundlePath": "AddGearTan/Rigs/arscpc.bundle",
+		"LootWeigthMult": 0.25
+	},
+	"AddGearTan_MPPV": {
+		"BaseItemID": "5df8a42886f77412640e2e75",
+		"BundlePath": "AddGearTan/Rigs/mppv.bundle",
+		"LootWeigthMult": 0.25
+	},
+	"AddGearTan_Crye_AVS": {
+		"BaseItemID": "544a5caa4bdc2d1a388b4568",
+		"BundlePath": "AddGearTan/Rigs/cryeavs.bundle",
+		"LootWeigthMult": 0.25
+	},
+	"AddGearTan_Blackrock": {
+		"BaseItemID": "5648a69d4bdc2ded0b8b457b",
+		"BundlePath": "AddGearTan/Rigs/blackrock.bundle",
+		"LootWeigthMult": 0.25
+	},
+	"AddGearTan_D3CRX": {
+		"BaseItemID": "5d5d85c586f774279a21cbdb",
+		"BundlePath": "AddGearTan/Rigs/d3crx.bundle",
+		"LootWeigthMult": 0.25
+	},
+	"AddGearTan_LBT_1961A": {
+		"BaseItemID": "5e9db13186f7742f845ee9d3",
+		"BundlePath": "AddGearTan/Rigs/lbt1961a.bundle",
+		"LootWeigthMult": 0.25
+	},
+	"AddGearTan_Thunderbolt": {
+		"BaseItemID": "5f5f41f56760b4138443b352",
+		"BundlePath": "AddGearTan/Rigs/thunderbolt.bundle",
+		"LootWeigthMult": 0.25
+	},
+	"AddGearTan_TV_109": {
+		"BaseItemID": "59e7643b86f7742cbf2c109a",
+		"BundlePath": "AddGearTan/Rigs/tv109.bundle",
+		"LootWeigthMult": 0.25
+	},
+	"AddGearTan_AZIMUT": {
+		"BaseItemID": "603648ff5a45383c122086ac",
+		"BundlePath": "AddGearTan/Rigs/AZIMUT.bundle",
+		"LootWeigthMult": 0.25
+	},
+	"AddGearTan_AVS_MBAV": {
+		"BaseItemID": "609e860ebd219504d8507525",
+		"BundlePath": "AddGearTan/Rigs/avs_mbav.bundle",
+		"LootWeigthMult": 0.25
 	}
 }

@@ -1,5 +1,18 @@
 {
 	"Rigs": {
-		"AddGearTan_GEN4_Full": true
+		"AddGearTan_TacTec_Carrier": true,
+		"AddGearTan_ANA_Alpha": true,
+		"AddGearTan_ANA_M1": true,
+		"AddGearTan_ANA_M2": true,
+		"AddGearTan_ARS_CPC": true,
+		"AddGearTan_MPPV": true,
+		"AddGearTan_Crye_AVS": true,
+		"AddGearTan_Blackrock": true,
+		"AddGearTan_D3CRX": true,
+		"AddGearTan_LBT_1961A": true,
+		"AddGearTan_Thunderbolt": true,
+		"AddGearTan_TV_109": true,
+		"AddGearTan_AZIMUT": true,
+		"AddGearTan_AVS_MBAV": true
 	}
 }
