@@ -34,7 +34,7 @@
 		"BundlePath": "AddGearTan/Rigs/cryeavs.bundle",
 		"LootWeigthMult": 0.25
 	},
-	"AddGearTan_Blackrock": {
+	"AddGearTan_BlackRock": {
 		"BaseItemID": "5648a69d4bdc2ded0b8b457b",
 		"BundlePath": "AddGearTan/Rigs/blackrock.bundle",
 		"LootWeigthMult": 0.25
