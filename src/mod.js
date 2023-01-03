@@ -36,7 +36,9 @@ class Mod
 		// AVS MBAV
 		if (itemConfig["Rigs"]["AddGearTan_AVS_MBAV"]) {
 			core.addItemRetexture(modDb, "AddGearTan_AVS_MBAV", "609e860ebd219504d8507525", "AddGearTan/Rigs/avs_mbav.bundle", false, false, itemData["AddGearTan_AVS_MBAV"].LootWeigthMult);
-			core.copyBotItemWeighting("AddGearTan_AVS_MBAV", "5b44cad286f77402a54ae7e5");
+			
+			if (config.AddToBots)
+				core.copyBotItemWeighting("AddGearTan_AVS_MBAV", "5b44cad286f77402a54ae7e5");
 			
 			// change price
 			database.templates.prices["AddGearTan_AVS_MBAV"] = 118933;
@@ -52,7 +54,8 @@ class Mod
 			database.templates.items["AddGearTan_AVS_MBAV"]._props.armorClass = database.templates.items["AddGearTan_AVS_MBAV"]._props.armorClass - 1;
 			
 			// add trade offer
-			core.createTraderOffer("AddGearTan_AVS_MBAV", "5ac3b934156ae10c4430e83c", "5449016a4bdc2d6f028b456f", 118933, 3)
+			if (config.EnableTradeOffers)
+				core.createTraderOffer("AddGearTan_AVS_MBAV", "5ac3b934156ae10c4430e83c", "5449016a4bdc2d6f028b456f", 118933, 3)
 		}
 		
 		// Modify quests
