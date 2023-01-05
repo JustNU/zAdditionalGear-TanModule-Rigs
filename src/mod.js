@@ -27,7 +27,7 @@ class Mod
 				}
 				
 				if (itemConfig[categoryId][itemId]) {
-					core.addItemRetexture(modDb, itemId, itemData[itemId].BaseItemID, itemData[itemId].BundlePath, config.EnableTradeOffers, config.AddToBots, itemData[itemId].LootWeigthMult);
+					core.addItemRetexture(itemId, itemData[itemId].BaseItemID, itemData[itemId].BundlePath, config.EnableTradeOffers, config.AddToBots, itemData[itemId].LootWeigthMult);
 				}
 			}
 		}
@@ -35,7 +35,7 @@ class Mod
 		// deal with edge cases
 		// AVS MBAV
 		if (itemConfig["Rigs"]["AddGearTan_AVS_MBAV"]) {
-			core.addItemRetexture(modDb, "AddGearTan_AVS_MBAV", itemData["AddGearTan_AVS_MBAV"].BaseItemID, itemData["AddGearTan_AVS_MBAV"].BundlePath, false, false, itemData["AddGearTan_AVS_MBAV"].LootWeigthMult);
+			core.addItemRetexture("AddGearTan_AVS_MBAV", itemData["AddGearTan_AVS_MBAV"].BaseItemID, itemData["AddGearTan_AVS_MBAV"].BundlePath, false, false, itemData["AddGearTan_AVS_MBAV"].LootWeigthMult);
 			
 			if (config.AddToBots)
 				core.copyBotItemWeighting("AddGearTan_AVS_MBAV", "5b44cad286f77402a54ae7e5");
