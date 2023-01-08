@@ -1,66 +1,66 @@
 {
 	"AddGearTan_TacTec_Carrier": {
-        "Name": "5.11 Tactical TacTec plate carrier (Desert Tan)",
-		"ShortName": "TacTec",
+        "Name": "5.11 Tactical TacTec armored rig (Tan)",
+		"ShortName": "TacTec Rig",
 		"Description": "A plate carrier with armor plates made of polyethylene (Russian GOST class 5 protection) and a set of pouches for use with assault rifles. Manufactured by 5.11 Tactical."
     },
 	"AddGearTan_ANA_Alpha": {
-        "Name": "ANA Tactical Alpha chest rig (Desert Tan)",
+        "Name": "ANA Tactical Alpha chest rig (Tan)",
 		"ShortName": "Alpha",
 		"Description": "\"Alpha\" is a high-quality chest rig that fully meets the military standards for reliability and functionality. The combination of integrated pouches and MOLLE straps provides the means of carrying a large number of necessary equipment. The vest is designed as a classic chest rig. In this type of vest, all the gear is located in the front and side parts, while the back part is comprised of adjustment belts and straps. Manufactured by ANA Tactical."
 	},
 	"AddGearTan_ANA_M1": {
-        "Name": "ANA Tactical M1 armored rig (Desert Tan)",
-		"ShortName": "ANA M1",
+        "Name": "ANA Tactical M1 armored rig (Tan)",
+		"ShortName": "ANA M1 Rig",
 		"Description": "A tactical rig with additional class 4 (Russian GOST) armor plates. The vest is created with the use of the best experience of Russian special forces operators. The versatility of the system makes it possible to use this vest both when carrying out city tasks and when performing tasks on rough terrain. Equipped with additional pouches. Manufactured by ANA Tactical."
     },
 	"AddGearTan_ANA_M2": {
-        "Name": "ANA Tactical M2 armored rig (Desert Tan)",
-		"ShortName": "ANA M2",
+        "Name": "ANA Tactical M2 armored rig (Tan)",
+		"ShortName": "ANA M2 Rig",
 		"Description": "A tactical rig with additional class 4 (Russian GOST) armor plates. The vest is created with the use of the best experience of Russian special forces operators. The versatility of the system makes it possible to use this vest both when carrying out city tasks and when performing tasks on rough terrain. Equipped with additional pouches for 8 magazines. Manufactured by ANA Tactical."
     },
 	"AddGearTan_ARS_CPC": {
-        "Name": "Ars Arma CPC MOD.2 plate carrier (Desert Tan)",
+        "Name": "Ars Arma CPC MOD.2 plate carrier (Tan)",
 		"ShortName": "CPC MOD.2",
 		"Description": "The second generation of the CPC body armor designed by Crye Precision and adapted by Ars Arma for use by special forces of the Russian Federation. This modular body armor is based on a polymer corset that fits the body, which avoids the backlash of the body arm during active movement and also contributes to a more even distribution of weight. Made in the assault configuration of pouches and armor elements. Manufactured by Ars Arma."
     },
 	"AddGearTan_MPPV": {
-        "Name": "Velocity Systems MPPV Multi-Purpose Patrol Vest (Desert Tan)",
+        "Name": "Velocity Systems MPPV Multi-Purpose Patrol Vest (Tan)",
 		"ShortName": "MPPV",
 		"Description": "Multi-Purpose Patrol Vest is designed for those patrolling situations where armor is not needed. A lightweight rig with a lot of pouches. Manufactured by Velocity Systems."
     },
 	"AddGearTan_Crye_AVS": {
-        "Name": "Crye Precision AVS plate carrier (Desert Tan)",
-		"ShortName": "AVS",
+        "Name": "Crye Precision AVS armored rig (Tan)",
+		"ShortName": "AVS Rig",
 		"Description": "The Crye Precision AVS rig equipped with light armored plates (Russian GOST class 4 protection) from combined materials. One of the most comfortable to wear plate carriers."
     },
 	"AddGearTan_BlackRock": {
-        "Name": "BlackRock chest rig (Desert Tan)",
+        "Name": "BlackRock chest rig (Tan)",
 		"ShortName": "BlackRock",
 		"Description": "A custom-made chest rig for wearing on top of body armor in urban operations. Sturdy and versatile, it features both MOLLE and ALICE attachment systems."
     },
 	"AddGearTan_D3CRX": {
-        "Name": "Haley Strategic D3CRX Chest Harness (Desert Tan)",
+        "Name": "Haley Strategic D3CRX Chest Harness (Tan)",
 		"ShortName": "D3CRX",
 		"Description": "The Haley Strategic D3CRX Combat chest rig is one of the most respected PMC rig systems. Ease and comfort of use are supported by the presence of the optimal number of pouches."
     },
 	"AddGearTan_LBT_1961A": {
-        "Name": "LBT-1961A Load Bearing chest rig (Desert Tan)",
+        "Name": "LBT-1961A Load Bearing chest rig (Tan)",
 		"ShortName": "LBCR",
 		"Description": "A tactical load-bearing system designed to carry magazines, grenades, and special equipment, while using low-profile body armor. Manufactured by London Bridge Trading."
     },
 	"AddGearTan_Thunderbolt": {
-        "Name": "Direct Action Thunderbolt compact chest rig (Desert Tan)",
+        "Name": "Direct Action Thunderbolt compact chest rig (Tan)",
 		"ShortName": "Thunderbolt",
 		"Description": "The Thunderbolt fixed chest rig, containing all the basic utility pouches you'd need. Manufactured by Direct Action."
     },
 	"AddGearTan_TV_109": {
-        "Name": "WARTECH TV-109 + TV-106 chest rig (Desert Tan)",
+        "Name": "WARTECH TV-109 + TV-106 chest rig (Tan)",
 		"ShortName": "TV-106 + TV-109",
 		"Description": "The WARTECH gear rig consisting of the TV-106 Battle Belt and TV-109 heavy suspension system. The shoulder straps are reinforced with foam and have MOLLE straps, and the TV-109 combined with the TV-106 completes the belt system into a full-featured gear rig."
     },
 	"AddGearTan_AVS_MBAV": {
-        "Name": "Crye Precision AVS MBAV (Desert Tan)",
+        "Name": "Crye Precision AVS MBAV (Tan)",
 		"ShortName": "AVS MBAV",
 		"Description": "A well-worn plate carrier based on the AVS module system by Crye Precision. It has one front panel with three attached pouches. And that's pretty much it. Nothing more, nothing less."
     }

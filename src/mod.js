@@ -1,4 +1,5 @@
 ﻿"use strict";
+const customItemsFunctions = require("./customItems.js");
 
 class Mod
 {
@@ -10,52 +11,69 @@ class Mod
 		const database = container.resolve("DatabaseServer").getTables();
 		const jsonUtil = container.resolve("JsonUtil");
 		const core = container.resolve("JustNUCore");
+		const VFS = container.resolve("VFS");
 		const modDb = `user/mods/zAdditionalGear-TanModule-Rigs/db/`;
 		const config = require("../config/config.json");
 		const itemConfig = require("../config/itemConfig.json");
 		const itemData = require("../db/items/itemData.json");
+		const enLocale = jsonUtil.deserialize(VFS.readFile(`${modDb}/locales/en.json`));
 		
 		// edge cases
-		const edgeCases = ["AddGearTan_AVS_MBAV"];
+		const customItems = [
+			"AddGearTan_AVS_MBAV"
+		];
 		
 		//add retextures
 		for (const categoryId in itemConfig) {
 			for (const itemId in itemConfig[categoryId]) {
-				// skip edge cases, handle them later
-				if (edgeCases.includes(itemId)) {
+				// handle locale
+				for (const localeID in database.locales.global) {
+					// en placeholder
+					if (enLocale[itemId]) {
+						if (enLocale[itemId].Name)
+							database.locales.global[localeID][`${itemId} Name`] = enLocale[itemId].Name;
+						if (enLocale[itemId].ShortName)
+							database.locales.global[localeID][`${itemId} ShortName`] = enLocale[itemId].ShortName;
+						if (enLocale[itemId].Description)
+							database.locales.global[localeID][`${itemId} Description`] = enLocale[itemId].Description;
+					}
+					// actual locale
+					if (VFS.exists(`${modDb}/locales/${localeID}.json`) && localeID != "en") {
+						const actualLocale = jsonUtil.deserialize(VFS.readFile(`${modDb}/locales/${localeID}.json`));
+
+						if (actualLocale[itemId]) {
+							if (actualLocale[itemId].Name)
+								database.locales.global[localeID][`${itemId} Name`] = actualLocale[itemId].Name;
+							if (actualLocale[itemId].ShortName)
+								database.locales.global[localeID][`${itemId} ShortName`] = actualLocale[itemId].ShortName;
+							if (actualLocale[itemId].Description)
+								database.locales.global[localeID][`${itemId} Description`] = actualLocale[itemId].Description;
+						}
+					}
+					
+					// replace some default locale
+					if (VFS.exists(`${modDb}/localesReplace/${localeID}.json`)) {
+						const replaceLocale = jsonUtil.deserialize(VFS.readFile(`${modDb}/localesReplace/en.json`));
+						
+						for (const localeItem in replaceLocale) {
+							for (const localeItemEntry in replaceLocale[localeItem]) {
+								database.locales.global[localeID][`${localeItem} ${localeItemEntry}`] = replaceLocale[localeItem][localeItemEntry];
+							}
+						}
+					}
+					
+				}
+				
+				// skip custom itens, handle them later
+				if (customItems.includes(itemId)) {
 					continue;
 				}
 				
+				// add item retexture that is 1:1 to original item
 				if (itemConfig[categoryId][itemId]) {
 					core.addItemRetexture(itemId, itemData[itemId].BaseItemID, itemData[itemId].BundlePath, config.EnableTradeOffers, config.AddToBots, itemData[itemId].LootWeigthMult);
 				}
 			}
-		}
-		
-		// deal with edge cases
-		// AVS MBAV
-		if (itemConfig["Rigs"]["AddGearTan_AVS_MBAV"]) {
-			core.addItemRetexture("AddGearTan_AVS_MBAV", itemData["AddGearTan_AVS_MBAV"].BaseItemID, itemData["AddGearTan_AVS_MBAV"].BundlePath, false, false, itemData["AddGearTan_AVS_MBAV"].LootWeigthMult);
-			
-			if (config.AddToBots)
-				core.copyBotItemWeighting("AddGearTan_AVS_MBAV", "5b44cad286f77402a54ae7e5");
-			
-			// change price
-			database.templates.prices["AddGearTan_AVS_MBAV"] = 118933;
-			
-			for (const handbookItemIndex in database.templates.handbook.Items) {
-				if (database.templates.handbook.Items[handbookItemIndex].Id === "AddGearTan_AVS_MBAV") {
-					database.templates.handbook.Items[handbookItemIndex].Price = 90465;
-					break;
-				}
-			}
-			
-			// change stats
-			database.templates.items["AddGearTan_AVS_MBAV"]._props.armorClass = database.templates.items["AddGearTan_AVS_MBAV"]._props.armorClass - 1;
-			
-			// add trade offer
-			if (config.EnableTradeOffers)
-				core.createTraderOffer("AddGearTan_AVS_MBAV", "5ac3b934156ae10c4430e83c", "5449016a4bdc2d6f028b456f", 118933, 3)
 		}
 		
 		// Modify quests
@@ -89,6 +107,9 @@ class Mod
 				];
 			}
 		}
+		
+		// deal with custom items
+		customItemsFunctions.handleCustomItems(database, core, config, itemConfig, itemData);
 	}
 }
 
