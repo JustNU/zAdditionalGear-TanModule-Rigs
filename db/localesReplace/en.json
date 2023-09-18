@@ -1,18 +1,18 @@
 {
 	"5b44cad286f77402a54ae7e5": {
-        "Name": "5.11 Tactical TacTec armored rig (Khaki)",
+        "Name": "5.11 Tactical TacTec plate carrier (Khaki)",
 		"ShortName": "TacTec Rig"
 	},
 	"5c0e722886f7740458316a57": {
-        "Name": "ANA Tactical M1 armored rig (OD Green)",
+        "Name": "ANA Tactical M1 plate carrier (OD Green)",
 		"ShortName": "ANA M1 Rig"
 	},
 	"5ab8dced86f774646209ec87": {
-        "Name": "ANA Tactical M2 armored rig",
+        "Name": "ANA Tactical M2 plate carrier",
 		"ShortName": "ANA M2 Rig"
 	},
 	"544a5caa4bdc2d1a388b4568": {
-        "Name": "Crye Precision AVS armored rig (Olive Green)",
+        "Name": "Crye Precision AVS plate carrier (Olive Green)",
 		"ShortName": "AVS Rig"
 	},
 	"592c2d1a86f7746dbe2af32a": {
@@ -37,6 +37,7 @@
         "Name": "WARTECH TV-109 + TV-106 chest rig (A-TACS FG)"
 	},
 	"609e860ebd219504d8507525": {
-        "Name": "Crye Precision AVS MBAV (Tagilla Edition, Khaki)"
+        "Name": "Crye Precision AVS MBAV plate carrier (Tagilla Edition, Khaki)",
+		"ShortName": "AVS MBAV rig"
 	}
 }

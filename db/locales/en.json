@@ -1,6 +1,6 @@
 {
 	"AddGearTan_TacTec_Carrier": {
-        "Name": "5.11 Tactical TacTec armored rig (Tan)",
+        "Name": "5.11 Tactical TacTec plate carrier (Tan)",
 		"ShortName": "TacTec Rig",
 		"Description": "A plate carrier with armor plates made of polyethylene (Russian GOST class 5 protection) and a set of pouches for use with assault rifles. Manufactured by 5.11 Tactical."
     },
@@ -10,12 +10,12 @@
 		"Description": "\"Alpha\" is a high-quality chest rig that fully meets the military standards for reliability and functionality. The combination of integrated pouches and MOLLE straps provides the means of carrying a large number of necessary equipment. The vest is designed as a classic chest rig. In this type of vest, all the gear is located in the front and side parts, while the back part is comprised of adjustment belts and straps. Manufactured by ANA Tactical."
 	},
 	"AddGearTan_ANA_M1": {
-        "Name": "ANA Tactical M1 armored rig (Tan)",
+        "Name": "ANA Tactical M1 plate carrier (Tan)",
 		"ShortName": "ANA M1 Rig",
 		"Description": "A tactical rig with additional class 4 (Russian GOST) armor plates. The vest is created with the use of the best experience of Russian special forces operators. The versatility of the system makes it possible to use this vest both when carrying out city tasks and when performing tasks on rough terrain. Equipped with additional pouches. Manufactured by ANA Tactical."
     },
 	"AddGearTan_ANA_M2": {
-        "Name": "ANA Tactical M2 armored rig (Tan)",
+        "Name": "ANA Tactical M2 plate carrier (Tan)",
 		"ShortName": "ANA M2 Rig",
 		"Description": "A tactical rig with additional class 4 (Russian GOST) armor plates. The vest is created with the use of the best experience of Russian special forces operators. The versatility of the system makes it possible to use this vest both when carrying out city tasks and when performing tasks on rough terrain. Equipped with additional pouches for 8 magazines. Manufactured by ANA Tactical."
     },
@@ -30,7 +30,7 @@
 		"Description": "Multi-Purpose Patrol Vest is designed for those patrolling situations where armor is not needed. A lightweight rig with a lot of pouches. Manufactured by Velocity Systems."
     },
 	"AddGearTan_Crye_AVS": {
-        "Name": "Crye Precision AVS armored rig (Tan)",
+        "Name": "Crye Precision AVS plate carrier (Tan)",
 		"ShortName": "AVS Rig",
 		"Description": "The Crye Precision AVS rig equipped with light armored plates (Russian GOST class 4 protection) from combined materials. One of the most comfortable to wear plate carriers."
     },
@@ -60,8 +60,8 @@
 		"Description": "The WARTECH gear rig consisting of the TV-106 Battle Belt and TV-109 heavy suspension system. The shoulder straps are reinforced with foam and have MOLLE straps, and the TV-109 combined with the TV-106 completes the belt system into a full-featured gear rig."
     },
 	"AddGearTan_AVS_MBAV": {
-        "Name": "Crye Precision AVS MBAV (Tan)",
-		"ShortName": "AVS MBAV",
+        "Name": "Crye Precision AVS MBAV plate carrier (Tan)",
+		"ShortName": "AVS MBAV rig",
 		"Description": "A well-worn plate carrier based on the AVS module system by Crye Precision. It has one front panel with three attached pouches. And that's pretty much it. Nothing more, nothing less."
     }
 }
