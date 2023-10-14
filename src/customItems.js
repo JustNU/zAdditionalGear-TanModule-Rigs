@@ -8,7 +8,7 @@ class CustomItems {
 			const dbItem = database.templates.items["AddGearTan_AVS_MBAV"];
 			
 			if (config.AddToBots)
-				core.copyBotItemWeighting("AddGearTan_AVS_MBAV", "5b44cad286f77402a54ae7e5");
+				core.copyBotItemWeighting("AddGearTan_AVS_MBAV", "5b44cad286f77402a54ae7e5", itemData["AddGearTan_AVS_MBAV"].LootWeigthMult);
 			
 			// change stats
 			dbItem._props.armorClass = dbItem._props.armorClass - 1; // 5
